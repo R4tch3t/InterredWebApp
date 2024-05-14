@@ -13,6 +13,7 @@
     "license": "ISC",
     "dependencies": {
         "@nextui-org/react": "^1.0.0-beta.12",
+        "@swc/helpers": "^0.5.11",
         "animate.css": "^4.1.1",
         "axios": "^0.27.2",
         "babel-plugin-styled-components": "^2.0.7",
@@ -33,5 +34,13 @@
     },
     "devDependencies": {
         "@types/react": "^18.0.26"
+    },
+    "resolutions": {
+        "next/@swc/helpers": "0.4.36"
+    },
+    "overrides": {
+        "next": {
+          "@swc/helpers": "0.4.36"
+        }
     }
 }
