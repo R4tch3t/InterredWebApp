@@ -1,0 +1,16 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-feb-2015, 17:25:09
+    Author     : R4tch3t
+*/
+svg{
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+}
+
+.anim{
+    -webkit-transform:rotate(10deg);
+}

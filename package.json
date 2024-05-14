@@ -1,0 +1,37 @@
+{
+    "name": "jumpx",
+    "version": "2.0.0",
+    "description": "Jumpx - React Next.js AI & IT Startup Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "scss": "node-sass --watch styles -o styles",
+        "build": "next build",
+        "start": "next start"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "@nextui-org/react": "^1.0.0-beta.12",
+        "animate.css": "^4.1.1",
+        "axios": "^0.27.2",
+        "babel-plugin-styled-components": "^2.0.7",
+        "fslightbox-react": "^1.6.2-2",
+        "moment": "^2.29.4",
+        "next": "^12.2.5",
+        "node-sass": "^7.0.3",
+        "nodemailer": "^6.7.7",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^18.2.0",
+        "react-accessible-accordion": "^5.0.0",
+        "react-bootstrap": "^2.7.0",
+        "react-dom": "^18.2.0",
+        "sass": "^1.54.4",
+        "sweetalert2": "^11.4.8",
+        "sweetalert2-react-content": "^5.0.0",
+        "swiper": "^8.3.2"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.26"
+    }
+}
